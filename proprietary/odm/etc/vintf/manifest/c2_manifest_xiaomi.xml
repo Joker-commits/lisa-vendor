@@ -27,14 +27,13 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <manifest version="1.0" type="device">
     <!-- Codec2 HAl service -->
-    <hal format="hidl">
+    <hal format="hidl" override="true">
         <name>android.hardware.media.c2</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IComponentStore</name>
             <instance>default</instance>
-            <instance>ozoaudio</instance>
             <instance>dolby</instance>
             <instance>software</instance>
         </interface>
