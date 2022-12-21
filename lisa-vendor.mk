@@ -457,6 +457,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lisa/proprietary/vendor/firmware/goodix_gt9897t_cfg_k9d_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9897t_cfg_k9d_csot.bin \
     vendor/xiaomi/lisa/proprietary/vendor/firmware/goodix_gt9897t_fw_k9d.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9897t_fw_k9d.bin \
     vendor/xiaomi/lisa/proprietary/vendor/firmware/goodix_gt9897t_fw_k9d_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9897t_fw_k9d_csot.bin \
+    vendor/xiaomi/lisa/proprietary/vendor/firmware/msbtfw11.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/msbtfw11.mbn \
+    vendor/xiaomi/lisa/proprietary/vendor/firmware/msbtfw11.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/msbtfw11.tlv \
+    vendor/xiaomi/lisa/proprietary/vendor/firmware/msnv11.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/msnv11.bin \
     vendor/xiaomi/lisa/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
     vendor/xiaomi/lisa/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/xiaomi/lisa/proprietary/vendor/firmware/vpu20_1v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b00 \
